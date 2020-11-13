@@ -19,4 +19,6 @@ if (età < 18) {
   prezzoFinale = prezzo;
 }
 
-alert("Lei pagherà per la tratta " + prezzoFinale.toFixed(2) + "€")
+// alert("Lei pagherà per la tratta " + prezzoFinale.toFixed(2) + "€")
+
+document.getElementById("ticket").innerHTML = prezzoFinale.toFixed(2) + "€";

@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer{
+  background-color: #0cd977;
+  height: 200px;
+  text-align: center;
+}
+.footer h1{
+  line-height: 200px;
+}
+.content{
+  text-align: center;
+}
+.content h3{
+  margin-top: 50px;
+}
+.content h3:hover{
+  transition: 2s;
+  transform: scale(5);
+}
